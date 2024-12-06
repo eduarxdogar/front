@@ -1,14 +1,17 @@
 <table>
     <thead>
         <tr>
+            <th>ID</th>
             <th>Nombre</th>
             <th>Email</th>
+
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let user of users">
-            <td>{{ user.name }}</td>
-            <td>{{ user.email }}</td>
+            <td>{{ user.id }}</td>
+            <td>{{ user.nombre }}</td>
+            <td>{{ user.correo }}</td>
         </tr>
     </tbody>
 </table>
